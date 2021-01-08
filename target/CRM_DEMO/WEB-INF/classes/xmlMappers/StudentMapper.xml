@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.crm.domain.mappers.StudentMapper">
+    <select id="find" parameterType="com.crm.domain.pojo.Student" resultType="com.crm.domain.pojo.Student">
+        select * from Student
+        <where>
+            <if test="sId!=null">
+                AND sId=#{sId}
+            </if>
+            <if test="name!=null">
+                AND name=#{name}
+            </if>
+            <if test="stuNum!=null">
+                AND stuNum=#{stuNum}
+            </if>
+            <if test="gender!=null">
+                AND gender=#{gender}
+            </if>
+            <if test="cLass!=null">
+                AND cLass=#{cLass}
+            </if>
+            <if test="dorm!=null">
+                AND dorm=#{dorm}
+            </if>
+            <if test="department!=null">
+                AND department=#{department}
+            </if>
+            <if test="telephone!=null">
+                AND telephone=#{telephone}
+            </if>
+            <if test="imageUrl!=null">
+                AND imageUrl=#{imageUrl}
+            </if>
+        </where>
+    </select>
+</mapper>
