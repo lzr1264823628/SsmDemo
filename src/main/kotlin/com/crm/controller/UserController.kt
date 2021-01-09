@@ -43,7 +43,6 @@ open class UserController {
     open fun logout(request:HttpServletRequest){
         val session = request.getSession(true)
         session.removeAttribute("uId")
+        session.invalidate()
     }
-
-
 }

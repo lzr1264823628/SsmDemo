@@ -30,6 +30,8 @@
             <!--对资源执行拦截操作-->
             <mvc:mapping path="/**"/>
             <mvc:exclude-mapping path="/users/login"/>
+            <mvc:exclude-mapping path="/users/logout"/>
+            <mvc:exclude-mapping path="/imgs/*.*"/>
             <bean class="com.crm.interceptor.LoginRequireInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>

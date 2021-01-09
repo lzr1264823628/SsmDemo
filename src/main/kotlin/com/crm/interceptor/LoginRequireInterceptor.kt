@@ -28,6 +28,7 @@ class LoginRequireInterceptor:HandlerInterceptor {
 //        jdbcIndexedSessionRepository?.apply {
 //            cleanUpExpiredSessions()
 //        }
+        if (request.method=="OPTIONS") return true
         val httpSession = request.getSession(false)
         if (httpSession==null){
             response.sendJsonAuthErrorMsg(ErrorMsg("需要登录验证"))

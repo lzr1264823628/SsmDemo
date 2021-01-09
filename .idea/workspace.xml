@@ -17,7 +17,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6518c7-14a1-4f63-b418-b1862bbeee2a" name="Default Changelist" comment="" />
+    <list default="true" id="ec6518c7-14a1-4f63-b418-b1862bbeee2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/crm/interceptor/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/crm/controller/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/crm/controller/UserController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/crm/exception/HttpStatusResolver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/crm/exception/HttpStatusResolver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/crm/interceptor/LoginRequireInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/crm/interceptor/LoginRequireInterceptor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRM_DEMO/WEB-INF/classes/com/crm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRM_DEMO/WEB-INF/classes/com/crm/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRM_DEMO/WEB-INF/classes/com/crm/exception/HttpStatusResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRM_DEMO/WEB-INF/classes/com/crm/exception/HttpStatusResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/exception/HttpStatusResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/exception/HttpStatusResolver.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +46,12 @@
         <option value="Kotlin Data Class" />
         <option value="spring-beans.schema" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -61,6 +77,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1mYB5nvd9dm7c38A3n1RRhSrdHS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -108,15 +125,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.58">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,7 +311,10 @@
       <workItem from="1609901924515" duration="11057000" />
       <workItem from="1609985068922" duration="740000" />
       <workItem from="1609987237724" duration="25046000" />
-      <workItem from="1610062627021" duration="4493000" />
+      <workItem from="1610062627021" duration="4859000" />
+      <workItem from="1610078666663" duration="48000" />
+      <workItem from="1610081624444" duration="6496000" />
+      <workItem from="1610164783976" duration="8639000" />
     </task>
     <servers />
   </component>
